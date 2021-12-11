@@ -1,6 +1,7 @@
 import styles from "../components/Preview.module.css";
 import { EditorContex } from "../context";
 import { useContext, useState } from "react";
+import Iframe from "react-iframe";
 import {
   BsFillCameraVideoFill,
   BsFillCameraVideoOffFill,
@@ -105,7 +106,7 @@ const Preview = () => {
         </div>
 
         {htmlValue ? (
-          <iframe className={styles.iframePreview} srcDoc={srcDoc} />
+          <Iframe className={styles.iframePreview} srcDoc={srcDoc} />
         ) : (
           <div className={styles.name}>
             <p>_nurullahbozkurt</p>
