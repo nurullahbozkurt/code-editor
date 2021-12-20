@@ -4,6 +4,7 @@
   background-color: #1d1e22;
   border-right: rgb(20, 19, 19) 2px solid;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  overflow: hidden;
 }
 .navbar {
   padding: 10px 0;
